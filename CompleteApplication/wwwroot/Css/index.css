@@ -1,0 +1,73 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( 110.5deg, rgba(248,196,249,0.66) 22.8%, rgba(253,122,4,0.15) 64.6% );
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+#drone-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: beige;
+    margin: 25px 0px 25px 0;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+#drone-span-name{
+    display:flex;
+    justify-content:center;
+    background-color:white;
+    color:black;
+    width:100%;
+    padding:10px 0 10px 0;
+    font-size:large;
+}
+
+#div-for-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    padding:0;
+    margin:0;
+
+}
+
+#drone-image{
+    width:100%;
+}
+
+#drone-div-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+#drone-span-get-images,
+#drone-span-get-info {
+    width: 50%;
+    background-color: white;
+    padding: 20px 0px 20px 0px;
+    cursor: pointer;
+    font: x-large;
+    font-weight: bold;
+    border-left: 1px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#drone-span-get-images:hover,
+#drone-span-get-info:hover{
+    background-color:burlywood;
+}
